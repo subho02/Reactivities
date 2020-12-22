@@ -14,7 +14,7 @@ namespace Persistance
             builder.Entity<Value>()
             .HasData(
                 new Value { Id = 1, Name = "Ritu" },
-                new Value { Id = 2, Name = "Subho" },
-                new Value { Id = 3, Name = "Keshav" });
+                new Value { Id = 2, Name = "Subho" }
+                );
         }
     }}
